@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+   
+  
+     }
+
+body{
+    background-color: black;
+    color: white;
+    line-height: 20pt;
+    
+       
+}
+
+
+
+
+/*--Heading--*/
+
+.heading{
+    position: relative;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 48pt;
+    
+ 
+
+}
+
+
+
+
+
+/*--Navigetor Bar*/
+
+.nav-bar {
+  width: 100%;
+ background-color: cadetblue;
+  overflow: auto;
+  border: rgba(255, 136, 0, 0.315) solid 3px;
+
+}
+.nav-bar a {
+    float: left;
+    color: #e2dcdc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .nav-bar a:hover {
+    background-color:gainsboro;
+    color: black;
+  }
+  
+/*--Heading--*/
+
+.heading{
+    position: relative;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 48pt;
+    
+ 
+
+}
+/*-------------History------*/
+
+
+
+
+
+/*--------table -----------------*/
+td {
+  height: 360px;
+  border: rgba(255, 136, 0, 0.315) 2px
+}

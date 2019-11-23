@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+   
+  
+     }
+
+body{
+    background-color: black;
+    color: white;
+    line-height: 20pt;
+    
+       
+}
+
+
+
+
+/*--Heading--*/
+
+.heading{
+    position: relative;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 48pt;}
+    
+    
+
+
+
+/*--Navigetor Bar*/
+
+.nav-bar {
+  width: 100%;
+ background-color: cadetblue;
+  overflow: auto;
+  border: rgba(255, 136, 0, 0.315) solid 3px;
+
+}
+.nav-bar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .nav-bar a:hover {
+    background-color:gainsboro;
+    color: black;
+  }
+/*---------Home Page------------*/ 
+  
+/*--Heading--*/
+
+.heading{
+    position: relative;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 48pt;
+    
+ 
+
+}
+/*----------------Grid----------------------*/
+
+  .main{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 150px 350px 150px 350px;
+    grid-gap: 15px;
+  }
+  .div0{
+     grid-column: 1 /3;
+     grid-row: 1 / 2;
+     margin: 50px;
+    font-size: 36pt;
+    text-align: center;
+    color:greenyellow;
+  }
+  .div1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+}
+
+  .div2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+}
+.div3{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+text-align: center;
+margin: 50px;
+    font-size: 36pt;
+    text-align: center;
+    color:greenyellow;
+}
+.div4{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+
+}
+.div5{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+
+}
+aside{
+    grid-column: 3 / 4;
+    grid-row: 1 / 5;
+    height: auto;
+
+}
+
+
+.div5 > img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+/*--------------culture ----------------*/
+
+table, th, tr, td{
+border: 3px gainsboro solid;  
+margin: 10px;
+padding: 3px;
+}
+
+td{
+  padding: 25px;
+  font: 16pt sans-serif;
+  line-height: 24pt;
+}
+.photo{
+  margin:10px;
+margin-left: 150px;
+}
+.banner{
+  color: rgb(64, 6, 122);
+  
+}
+
+/*--------------Exploring ----------------*/
+
+.flex-container {
+  display: flex;
+flex-wrap: wrap;
+ 
+  background-color: black;
+}
+
+.flex-container > div.ediv0{
+ 
+  color:greenyellow;
+  flex: 1200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+ font-size: 36pt;
+ width: 600px;
+ height: 40px; 
+
+}
+.flex-container > div{
+
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12pt;
+  
+
+
+}
+
+/*--------------from---------------*/
+
+.label1 {
+  float: left;
+  width: 250px;
+  padding-right: 24px;
+}
+ 
